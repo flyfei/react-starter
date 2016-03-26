@@ -1,0 +1,46 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "description": "A quick and simple React with Webpack, Babel, ESLint, ES2015(ES6) & ES7",
+  "scripts": {
+    "start": "webpack-dev-server --port 3000",
+    "build": "webpack",
+    "lint": "eslint src; exit 0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "flyfei <zhaotengfei9@gmail.com> (https://github.com/flyfei)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flyfei/react-starter.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "boilerplate",
+    "es6",
+    "es7"
+  ],
+  "bugs": {
+    "url": "https://github.com/flyfei/react-starter/issues"
+  },
+  "homepage": "https://github.com/flyfei/react-starter#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.5.1",
+    "babel-eslint": "^6.0.0",
+    "babel-loader": "^6.2.3",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "eslint": "^2.2.0",
+    "eslint-config-airbnb": "^6.2.0",
+    "eslint-plugin-react": "^4.0.0",
+    "html-webpack-plugin": "^1.7.0",
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  }
+}
