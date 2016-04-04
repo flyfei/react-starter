@@ -6,7 +6,7 @@ class FlexTest extends Component {
       <div>
       <h2>用Flex实现各种布局</h2>
       <h3></h3>
-      <div>
+      <div className={'test_scss'}>Test SCSS<div>
     );
   }
 }
