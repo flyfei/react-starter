@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import About from './components/About/About';
-import FlexUse from './components/FlexUse';
+import FlexTest from './components/FlexTest';
 
 class App extends Component {
 
   render() {
     return (
       <div>
-        <FlexUse />
+        <FlexTest />
         <About name="Mohamad Jahani" />
       </div>
     );
